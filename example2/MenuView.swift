@@ -22,7 +22,7 @@ class MenuView: UIView {
     private let onboardingButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Onboarding", for: .normal)
-        button.layer.cornerRadius = Metrics2.medium
+        button.layer.cornerRadius = Metrics.medium
         
         return button
     }()
