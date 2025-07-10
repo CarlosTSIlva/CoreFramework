@@ -13,6 +13,9 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6A9A909D2E1F3A4900B037BE /* CoreFramework */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFolders = (
+				Resources,
+			);
 			path = CoreFramework;
 			sourceTree = "<group>";
 		};
