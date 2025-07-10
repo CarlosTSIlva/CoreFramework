@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.0"
   spec.swift_version      = ["5.0"]
   spec.source       = { :git => "https://github.com/CarlosTSIlva/CoreFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "CoreFramework/Resources/Sources/**/*.{swift,h}"
+  spec.source_files  = "CoreFramework/Resources/Source/**/*.{swift,h}"
   spec.frameworks = "UIKit"
   spec.exclude_files = "Classes/Exclude"
 end
