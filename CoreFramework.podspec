@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/CarlosTSIlva/CoreFramework"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "CarlosTSIlva" => "carlosteixeira.tc@hotmail.com" }
-  spec.platform     = :ios, "18.5"
+  spec.platform     = :ios, "18.0"
   spec.swift_version = "5.0"
   spec.source       = { :git => "https://github.com/CarlosTSIlva/CoreFramework.git", :tag => "#{spec.version}" }
   spec.source_files = "CoreFramework/Resources/Source/**/*.{swift,h}",
