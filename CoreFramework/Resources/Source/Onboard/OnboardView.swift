@@ -36,14 +36,14 @@ public class OnboardingView: UIView {
         button.setTitle("Próximo", for: .normal)
         button.titleLabel?.font = Typography.subHeading
         button.setTitleColor(Colors.primaryRedBase, for: .normal)
-        button.addTarget(self, action: #selector(didTapNextStep), for: .touchUpInside)
+        button.addTarget(OnboardingView.self, action: #selector(didTapNextStep), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         
         return button
     }()
     
     public init() {
-        super.init(frame: 0)
+        super.init(frame: .zero)
         setupUI()
     }
     
