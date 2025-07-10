@@ -1,11 +1,12 @@
 //
-//  Metrics.swift
-//  
+//  Teste.swift
+//  CoreFramework
 //
-//  Created by Carlos Silva on 09/07/25.
+//  Created by Carlos Silva on 10/07/25.
 //
 
 import Foundation
+
 import UIKit
 
 public struct Metrics {

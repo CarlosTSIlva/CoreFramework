@@ -1,6 +1,6 @@
 //
 //  OnboardingView.swift
-//  
+//
 //
 //  Created by Carlos Silva on 09/07/25.
 //
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class OnboardingView:: UIView {
+public class OnboardingView: UIView {
     private var steps: [String] = []
     private var currentStep = 0
     
