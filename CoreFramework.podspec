@@ -4,17 +4,18 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.2"
   spec.summary      = "CoreFramework foi desenvolvido para atender ao app Reminder como core de design e de componentes a serem utilizados pela equipe ReminderTeam"
   spec.description  = <<-DESC
-                   Esse projeto tem o intuito de melhorar e ajudar
+                      Esse projeto tem o intuito de melhorar e ajudar
+                      no desenvolvimento compartilhado de componentes.
   DESC
-  
-  spec.homepage     = "http://github.com/CoreFramework"
-  spec.license      = { :type => "MIT", :file => "LICENCE"}
-  spec.author             = { "CarlosTSIlva" => "carlosteixeira.tc@hotmail.com" }
-  spec.platform = :ios, "12.0"
-  spec.ios.deployment_target = "12.0"
-  spec.swift_version      = ["5.0"]
+
+  spec.homepage     = "https://github.com/CarlosTSIlva/CoreFramework"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.author       = { "CarlosTSIlva" => "carlosteixeira.tc@hotmail.com" }
+  spec.platform     = :ios, "12.0"
+  spec.swift_version = "5.0"
   spec.source       = { :git => "https://github.com/CarlosTSIlva/CoreFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "CoreFramework/Resources/Source/**/*.{swift,h}"
-  spec.frameworks = "UIKit"
+  spec.source_files = "CoreFramework/**/*.{swift,h}"
+  spec.frameworks   = "UIKit"
   spec.exclude_files = "Classes/Exclude"
 end
+
