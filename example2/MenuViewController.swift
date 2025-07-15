@@ -23,6 +23,7 @@ public class MenuViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        setupActions()
     }
     
     private func setupView() {
@@ -37,5 +38,25 @@ public class MenuViewController: UIViewController {
             contentView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             contentView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
         ])
+    }
+    
+    private func setupActions() {
+        contentView.didTapOnboarding = { [weak self] in
+            self?.showOnboarding()
+        }
+    }
+    
+    private func showOnboarding() {
+        let onboardingView = OnboardingView()
+        
+        let steps = [
+            (UIImage(named: "onboarding1"), "Bem vindo ao onboarding do reminder"),
+            (UIImage(named: "image2"), "Para cadastrar seus remedios é super simples"),
+            (UIImage(named: "image3"), "Selecionar o horario da primeira dose, e as subsquentes"),
+            (UIImage(named: "image4"), "Iremos te lembrar de tomar no horario correto")
+            
+        ]
+        
+        onboardingView.presentOnboarding(on: view, with: steps)
     }
 }

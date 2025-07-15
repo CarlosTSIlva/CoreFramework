@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A0E5A8F2E26D6320026A721 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E5A8E2E26D6320026A721 /* CustomButton.swift */; };
+		6A23E5102E269F0600A48776 /* ToggleCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A23E50F2E269F0600A48776 /* ToggleCheckbox.swift */; };
+		6A23E5122E26A09500A48776 /* ExampleCheckboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A23E5112E26A09500A48776 /* ExampleCheckboxViewController.swift */; };
 		6A48C5842E205C230022857A /* CoreFramework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6AF16A2E2E20166A00153847 /* CoreFramework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		6A48C5892E205E5E0022857A /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A48C5882E205E5E0022857A /* Metrics.swift */; };
 		6A48C58B2E205E720022857A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A48C58A2E205E720022857A /* Colors.swift */; };
@@ -40,6 +43,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A0E5A8E2E26D6320026A721 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = CoreFramework/Resources/Source/Button/CustomButton.swift; sourceTree = "<group>"; };
+		6A23E50F2E269F0600A48776 /* ToggleCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToggleCheckbox.swift; path = CoreFramework/Resources/Source/ToggleCheckbox/ToggleCheckbox.swift; sourceTree = "<group>"; };
+		6A23E5112E26A09500A48776 /* ExampleCheckboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExampleCheckboxViewController.swift; path = CoreFramework/Resources/Source/ToggleCheckbox/ExampleCheckboxViewController.swift; sourceTree = "<group>"; };
 		6A48C5882E205E5E0022857A /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Metrics.swift; path = CoreFramework/Resources/Source/Constant/Metrics/Metrics.swift; sourceTree = "<group>"; };
 		6A48C58A2E205E720022857A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = CoreFramework/Resources/Source/Constant/Colors/Colors.swift; sourceTree = "<group>"; };
 		6A48C58C2E205E9C0022857A /* typografy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = typografy.swift; path = CoreFramework/Resources/Source/Constant/Text/typografy.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 		6A9A90912E1F3A4900B037BE = {
 			isa = PBXGroup;
 			children = (
+				6A0E5A8E2E26D6320026A721 /* CustomButton.swift */,
+				6A23E5112E26A09500A48776 /* ExampleCheckboxViewController.swift */,
+				6A23E50F2E269F0600A48776 /* ToggleCheckbox.swift */,
 				6A48C58E2E205EB50022857A /* OnboardView.swift */,
 				6A48C58C2E205E9C0022857A /* typografy.swift */,
 				6A48C58A2E205E720022857A /* Colors.swift */,
@@ -255,9 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A23E5122E26A09500A48776 /* ExampleCheckboxViewController.swift in Sources */,
 				6A48C58B2E205E720022857A /* Colors.swift in Sources */,
+				6A0E5A8F2E26D6320026A721 /* CustomButton.swift in Sources */,
 				6A48C58D2E205E9C0022857A /* typografy.swift in Sources */,
 				6A48C5892E205E5E0022857A /* Metrics.swift in Sources */,
+				6A23E5102E269F0600A48776 /* ToggleCheckbox.swift in Sources */,
 				6A48C58F2E205EB50022857A /* OnboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
